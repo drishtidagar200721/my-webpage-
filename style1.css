@@ -1,0 +1,199 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#FFF8F6;
+    color:#444;
+    line-height:1.7;
+}
+
+/* Header */
+
+header{
+    background:#FFDCD5;
+    text-align:center;
+    padding:50px 20px;
+}
+
+header h1{
+    font-size:45px;
+    color:#6B4F4F;
+}
+
+header p{
+    margin-top:10px;
+    color:#666;
+}
+
+/* About Section */
+
+.hero{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:60px;
+    padding:60px 10%;
+    flex-wrap:wrap;
+}
+
+.image img{
+    width:280px;
+    height:360px;
+    object-fit:cover;
+    border-radius:15px;
+    border:5px solid white;
+    box-shadow:0 8px 20px rgba(0,0,0,0.12);
+}
+
+.about{
+    max-width:600px;
+}
+
+.about h2{
+    color:#6B4F4F;
+    margin-bottom:20px;
+    font-size:32px;
+}
+
+.about p{
+    margin-bottom:15px;
+}
+
+/* Skills */
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+    margin-top:20px;
+}
+
+.skills span{
+    background:#FFDCD5;
+    padding:8px 18px;
+    border-radius:20px;
+    font-size:15px;
+}
+
+/* Belief Section */
+
+.belief{
+    background:#FFF1EE;
+    text-align:center;
+    padding:60px 10%;
+}
+
+.belief h2{
+    color:#6B4F4F;
+    margin-bottom:20px;
+}
+
+/* Button */
+
+button{
+    background:#E8A8A8;
+    color:white;
+    border:none;
+    padding:12px 28px;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#D88C8C;
+}
+
+/* Hidden Box */
+
+#beliefBox{
+    display:none;
+    background:white;
+    max-width:750px;
+    margin:30px auto;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+    text-align:left;
+}
+
+/* Contact */
+
+.contact{
+    padding:60px 10%;
+    text-align:center;
+}
+
+.contact h2{
+    color:#6B4F4F;
+    margin-bottom:20px;
+}
+
+.contact-card{
+    display:inline-block;
+    background:white;
+    padding:30px 50px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+.contact-card p{
+    margin:15px 0;
+}
+
+.contact-card a{
+    text-decoration:none;
+    color:#C76C6C;
+    font-weight:500;
+}
+
+.contact-card a:hover{
+    text-decoration:underline;
+}
+
+/* Footer */
+
+footer{
+    background:#FFDCD5;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+    color:#555;
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+.hero{
+    flex-direction:column;
+    text-align:center;
+}
+
+.image img{
+    width:220px;
+    height:300px;
+}
+
+header h1{
+    font-size:35px;
+}
+
+.about h2{
+    font-size:28px;
+}
+
+.contact-card{
+    width:100%;
+    padding:25px;
+}
+
+}
